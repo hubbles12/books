@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fjalla One", serif;
+    color: #251607;
+
+}
+
+body {
+    background-image: url(../img/bg-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 56px;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        text-transform:uppercase;
+        a {
+            font-weight: 400;
+            color: #251607;
+            text-decoration: none;
+            font-size: clamp(1.25rem, 0.8871rem + 1.6129vw, 2.5rem);
+            line-height: clamp(1.25rem, 0.8871rem + 1.6129vw, 2.5rem);
+
+        }
+    }
+
+    
+}
+
+main {
+    text-align: center;
+    h1 {
+        font-weight: 400;
+        line-height: clamp(6.125rem, -0.9153rem + 31.2903vw, 30.375rem);
+        color: #251607;
+        font-size: clamp(6.125rem, -0.9153rem + 31.2903vw, 30.375rem);
+    }
+
+    p {
+        text-align: center;
+        font-weight: 400;
+        line-height: clamp(1.875rem, 2.129rem + -1.129vw, 1rem);
+        font-size: clamp(1.875rem, 2.129rem + -1.129vw, 1rem);
+    }
+
+    
+}
+
+#image {
+
+    img {
+        width: 100%;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        
+        h2 {
+            font-weight: 400;
+            font-size: clamp(1.25rem, 0.9778rem + 1.2097vw, 2.1875rem);
+            line-height: clamp(1.25rem, 0.9778rem + 1.2097vw, 2.1875rem);
+            padding: 30px;
+
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: clamp(1.25rem, 0.9778rem + 1.2097vw, 2.1875rem);
+            line-height: clamp(1.25rem, 0.9778rem + 1.2097vw, 2.1875rem); 
+            padding: 30px;
+        }
+    }
+}
+
+#photos {
+    margin-top: 150px;
+
+}

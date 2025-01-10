@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+    height: 100dvh;
+    background-image: url(../img/bgc-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    a {
+        z-index: 2;
+        color: #fff;
+        font-size: 30px;
+    }
+}
+
+header, footer {
+    padding: 40px;
+    background-image: url(https://shibuya-bay.vercel.app/bg-2.png);
+    position: fixed;
+    width: 100%;
+    color: #E69AA4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
