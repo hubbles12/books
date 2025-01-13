@@ -17,7 +17,7 @@ body {
 
 .container {
     max-width: 1600px;
-    padding: 20px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -91,7 +91,98 @@ main {
     }
 }
 
-#photos {
-    margin-top: 150px;
+#slider {
+    margin-top: clamp(2.5rem, 0.504rem + 8.871vw, 9.375rem);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
+    img {
+        width: clamp(22.5rem, 0rem + 100vw, 100rem);
+        margin-bottom: 5px;
+    }
+}
+
+.haru {
+    margin-top: clamp(2.5rem, 0.504rem + 8.871vw, 9.375rem);
+    .wrap-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 40px;
+
+        .bx1>img, .bx2>img {
+            width: 100%;
+        }
+
+        .bx1 {
+            h5 {
+                font-size: clamp(0.625rem, 0.4435rem + 0.8065vw, 1.25rem);
+                text-transform: uppercase;
+                padding-top: 20px;
+            }
+        }
+
+        .bx2 {
+            h1 {
+                font-size: clamp(4rem, 1.5323rem + 10.9677vw, 12.5rem);
+                text-transform: uppercase;
+                text-align: center;
+                padding-bottom: 70px;
+            }
+
+            p {
+                font-size: clamp(0.625rem, 0.4435rem + 0.8065vw, 1.25rem);
+                text-align: end;
+                text-transform: uppercase;
+                padding-bottom: 30px;
+            }
+
+            .img2 {
+                padding: 20px;
+            }
+        }
+    }
+}
+
+.plans {
+    height: 100dvh;
+
+    .wrap-plans {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+
+        .box-1 {
+         
+            background-image: url(https://shibuya-bay.vercel.app/plans-1.png);
+        }
+
+        .box-2 {
+           
+            background-image: url(https://shibuya-bay.vercel.app/plans-2.png);
+        }
+
+        .box-3 {
+          
+            background-image: url(https://shibuya-bay.vercel.app/plans-3.png);
+        }
+
+        .box-4 {
+           
+            background-image: url(https://shibuya-bay.vercel.app/plans-4.png);
+        }
+
+        .box-5 {
+            
+            background-image: url(https://shibuya-bay.vercel.app/plans-5.png);
+        }
+
+        
+
+    }
 }

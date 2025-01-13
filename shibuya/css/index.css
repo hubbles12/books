@@ -12,6 +12,10 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
+    div {
+        margin: 0 auto;
+    }
 
     a {
         z-index: 2;
@@ -30,6 +34,16 @@ header, footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: 1s;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 
 header {
